@@ -1,0 +1,19 @@
+@import "global";
+
+body {
+  background-image: url("/assets/img/bg.gif");
+}
+
+.slider {
+  margin-top: -110px;
+  display: flex;
+  overflow: scroll;
+}
+
+.img-slider {
+  width: 100%;
+}
+
+video {
+  margin: 40px;
+}

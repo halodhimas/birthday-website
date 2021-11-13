@@ -1,0 +1,39 @@
+@import 'style';
+
+//body//
+
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    height: 100vh;
+  }
+
+//button component//
+
+.btn {
+    @include para;
+    padding: 16px;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: $black;
+    color: $white;
+    border-radius: 12px;
+    
+    &:focus {
+        background-color: $black;
+    }
+}
+
+.btn-secondary {
+    background: none;
+    border: $border;
+    color: $black;
+    border-radius: 12px;
+
+    &:hover {
+        background: $black;
+    }
+}

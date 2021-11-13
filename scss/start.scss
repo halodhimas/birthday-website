@@ -1,0 +1,19 @@
+@import "global";
+
+body {
+  background-image: url("/assets/img/bg.gif");
+}
+
+.content {
+
+  .container {
+    padding-top: 32px;
+
+    top:180px;
+
+    .btn-group {
+      display: grid;
+      gap: 16px;
+    }
+  }
+}
